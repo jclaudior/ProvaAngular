@@ -10,6 +10,7 @@ import { DefaultCardComponent } from './default-card/default-card.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { BlockComponent } from './block/block.component';
 import { FormComponent } from './form/form.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormComponent } from './form/form.component';
     DefaultCardComponent,
     PricingComponent,
     BlockComponent,
-    FormComponent
+    FormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
